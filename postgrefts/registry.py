@@ -1,13 +1,13 @@
 # coding: utf-8
 
 from __future__ import unicode_literals
+from importlib import import_module
 import warnings
 
 from django.conf import settings
 from django.template import TemplateDoesNotExist
 from django.template.loader import render_to_string
 from django.utils.encoding import force_text
-from django.utils.importlib import import_module
 from django.utils.module_loading import module_has_submodule
 from easy_thumbnails.exceptions import InvalidImageFormatError
 from easy_thumbnails.files import get_thumbnailer

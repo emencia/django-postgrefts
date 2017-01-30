@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 from django.db.models import Field, Aggregate, Lookup, Transform
-from django.db.models.sql.aggregates import Aggregate as SQLAggregate
+from django.db.models.aggregates import Aggregate as SQLAggregate
 
 from .settings import DICTIONARY
 
